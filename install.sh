@@ -9,15 +9,7 @@ echo "Instalando pacotes necessários..."
 sudo pacman -S --noconfirm i3-wm i3status i3lock dmenu feh picom rofi tmux ranger nvim alacritty
 
 echo "Criando diretórios de configuração..."
-mkdir -p \ 
-  ~/.config/i3 \
-  ~/.config/i3status \
-  ~/.config/picom \
-  ~/.config/rofi \
-  ~/.config/ranger \
-  ~/.config/alacritty \
-  ~/.config/nvim \
-  ~/pictures/wallpapers
+mkdir -p ~/.config/{i3,i3status,picom,rofi,ranger,alacritty,nvim} ~/pictures/wallpapers ~/.fonts
 
 echo "Copiando arquivos de configuração..."
 cp -r config/i3/* ~/.config/i3/
