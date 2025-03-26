@@ -30,7 +30,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id picom -f
 exec --no-startup-id setxkbmap -layout br
-exec --no-startup-id feh --randomize --bg-fill ~/wallpapers/*
+exec --no-startup-id feh --randomize --bg-fill ~/pictures/wallpapers/*
 exec --no-startup-id redshift -l auto
 exec --no-startup-id conky -c ~/.config/conky/frappe.conf
 exec --no-startup-id xset s 900 900
@@ -317,7 +317,7 @@ bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 
 exec --no-startup-id setxkbmap -layout br
 exec conky -c $HOME/.config/conky/frappe.conf
-exec feh --randomize --bg-fill ~/wallpapers/*
+exec feh --randomize --bg-fill ~/pictures/wallpapers/*
 exec --no-startup-id redshift -l auto
 
 exec --no-startup-id xset s 900 900

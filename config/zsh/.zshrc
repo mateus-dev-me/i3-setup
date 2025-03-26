@@ -112,7 +112,6 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pshell="poetry shell"
 alias ls="exa"
-alias cat="bat"
 alias tree="lsd --tree"
 alias py="python3"
 alias ipy="ipython"
@@ -135,4 +134,3 @@ fpath+=~/.zfunc
 export GOPATH=/home/mateus/go
 
 export PATH=/home/mateus/.pyenv/shims:/home/mateus/.pyenv/bin:/home/mateus/.local/bin:/home/mateus/.pyenv/bin:/home/mateus/.local/bin:/home/mateus/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mateus/go/bin:/bin
-source /usr/share/nvm/init-nvm.sh
